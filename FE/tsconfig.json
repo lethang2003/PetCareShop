@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": [
+        "components/*"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@common/*": [
+        "common/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@routes/*": [
+        "routes/*"
+      ],
+      "@store/*": [
+        "store/*"
+      ],
+      "@layouts/*": [
+        "layouts/*"
+      ]
+    },
+    "esModuleInterop": true
+  },
+  "include": [
+    "src"
+  ]
+}
